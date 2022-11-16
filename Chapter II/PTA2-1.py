@@ -1,0 +1,1 @@
+print("sum = " + str(sum(range(11, int(input()) + 1))))
