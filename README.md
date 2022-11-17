@@ -101,3 +101,78 @@ Problems
 13. [求整数段和](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1111653447408467978)
 
     - 格式化输出
+
+### Chapter III 使用字符串，列表和元组
+
+1. [大于身高的平均值](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180308) 
+
+2. [ 查验身份证](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180309) 
+
+   - 注意本题身份证号码中可能会出现奇怪的字符
+   - 列表转字符串 `"".join(s)` ，字符串转列表 `list(a)` 
+
+3. [输出字母在字符串中位置索引](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180307) 
+
+   字符串的 `find` 和 `rfind` ，或者直接遍历一遍也行
+
+4. [ 查找指定字符](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180288) 
+
+5. [字符转换](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180289) 
+
+   - 还有这种写法我是没想到的
+
+     ```python
+     a = input()
+     b = []
+     for n in a :
+         if n.isdigit():
+             b.append(n)
+     print(int("".join(b)))
+     ```
+
+     > 来自 [第3章-5 字符转换 (15分)|PTA|Python_weixin_45013752的博客-CSDN博客](https://blog.csdn.net/weixin_45013752/article/details/105472560) 
+
+6. [ 求整数序列中出现次数最多的数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180290) 
+
+   `a.count()`
+
+7. [ 求最大值及其下标](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180291) 
+
+   `max(a)` `a.index(x)`
+
+8. [ 字符串逆序](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180292) 
+
+   - [Python3 reversed 函数 | 菜鸟教程 (runoob.com)](https://www.runoob.com/python3/python3-func-reversed.html) 注意返回的是迭代器，有点麻烦
+   - 字符串切片还行
+
+9. [ 字符串转换成十进制整数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180293) 
+
+   注意 `int()` 处理不了字符串是空串的情况
+
+10. [统计大写辅音字母](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180294) 
+
+    注意 `v in X` 和 `v not in X` 的使用
+
+11. [ 字符串排序](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180295) 
+
+12. [ 求整数的位数及各位数字之和](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180296) 
+
+13. [ 字符串替换](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180297) 
+
+14. [字符串字母大小写转换](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180298) 
+
+15. [ 统计一行文本的单词个数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180299) 
+
+16. [ 删除重复字符](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180300) 
+
+17. [删除字符](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180301) 
+
+18. [输出10个不重复的英文字母](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180302) 
+
+19. [找最长的字符串](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180303) 
+
+20. [ 逆序的三位数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180304) 
+
+21. [ 判断回文字符串](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180305) 
+
+22. [ 输出大写英文字母](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180306) 
