@@ -157,11 +157,23 @@ Problems
 
 12. [ 求整数的位数及各位数字之和](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180296) 
 
+    - 无非就是 字符串 和 列表 相互转化
+    - 字符串 -> 列表：`list(), .split()` 
+    - 列表 -> 字符串：`"".join(s)` 
+
 13. [ 字符串替换](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180297) 
+
+    - `ord` 返回 Unicode 字符对应的整数
+    - `chr` 返回整数对应的 Unicode 字符
+    - 注意 python 中字符串不可改，需转换为 `list` 
 
 14. [字符串字母大小写转换](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180298) 
 
+    - `s[i] = s[i].upper()` 转大写，转小写类似
+
 15. [ 统计一行文本的单词个数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180299) 
+
+    - `input().split()` 里面没加 `" "` 时反而能匹配多个空格，加了就只能匹配一个了
 
 16. [ 删除重复字符](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180300) 
 
