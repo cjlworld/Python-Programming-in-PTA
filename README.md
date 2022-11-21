@@ -177,13 +177,24 @@ Problems
 
 16. [ 删除重复字符](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180300) 
 
+    - 先排序，再挨个判断是否输出会好些
+    - 逛了篇题解，发现还有用 `set()` 的做法
+      - [Python set() 函数 | 菜鸟教程 (runoob.com)](https://www.runoob.com/python/python-func-set.html) 
+      - [第3章-16 删除重复字符 (20 分)_chen_zan_yu_的博客-CSDN博客](https://blog.csdn.net/chen_zan_yu_/article/details/103359397) 
+
 17. [删除字符](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180301) 
 
+    `s = s.replace(c.upper(), "")` 
+
 18. [输出10个不重复的英文字母](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180302) 
+
+    判断一个字符串是不是纯字母的可以用 `.isalpha()` 
 
 19. [找最长的字符串](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180303) 
 
 20. [ 逆序的三位数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180304) 
+
+    - [Python 对字符串切片及翻转 | 菜鸟教程 (runoob.com)](https://www.runoob.com/python3/python-slicing-rotate-string.html) 
 
 21. [ 判断回文字符串](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180305) 
 
