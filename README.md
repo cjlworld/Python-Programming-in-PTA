@@ -199,3 +199,133 @@ Problems
 21. [ 判断回文字符串](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180305) 
 
 22. [ 输出大写英文字母](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163031535431180306) 
+
+### Chapter IV 条件、循环和其他语句
+
+其实我觉得这章要放在前面讲的
+
+- 条件语句
+
+```python
+if ... : 
+	...
+```
+
+```python
+if ... :
+	...
+else :
+	...
+```
+
+```python
+if ... :
+    ...
+elif ... :
+    ...
+... # 省略 [0,+inf) 个 elif ... : ...
+else :
+    ...
+```
+
+- 循环语句
+
+```python
+for i in a : 
+	...
+else : # 循环正常结束进入 else 语句, else 可省略
+	...
+```
+
+```python
+while ... :
+    ...
+else : # 循环正常结束进入 else 语句, else 可省略
+    ...
+```
+
+```python
+continue # 略过本次循环剩余内容，直接进入下一轮循环
+```
+
+```python
+break # 结束循环，算非正常结束 (这里正常结束指以 for 或 while 后的条件结束)
+```
+
+- 条件表达式
+
+```python
+expression_1 if condition else expression_2
+
+# condition 为真, 表达式的值为 expression_1, 否则为 expression_2 
+```
+
+- 二维列表推导式
+
+```python
+[[f(i, j) for j in range(m)] for i in range(n)] 
+```
+
+Problems
+
+1. [ 生成3的乘方表](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477952) 
+
+2. [统计素数并求和](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477954) 
+
+3. [ 猴子吃桃问题](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477955) 
+
+4. [ 验证“哥德巴赫猜想”](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477956) 
+
+   note 4=2+2
+
+5. [ 求e的近似值](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477953) 
+
+6. [ 输出前 n 个Fibonacci数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477957) 
+
+7. [ 统计学生平均成绩与及格人数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477958)
+
+8. [ 求分数序列前N项和](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477959) 
+
+9. [ 查询水果价格](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477960) 
+
+10. [最大公约数和最小公倍数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477961) 
+
+11. [ 判断素数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477962) 
+
+12. [ 求满足条件的斐波那契数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477978) 
+
+13. [ 求误差小于输入值的e的近似值](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477980) 
+
+14. [ 统计字符](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477979) 
+
+15. [换硬币](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477963) 
+
+16. [jmu-python-判断是否构成三角形](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477964) 
+
+17. [ 水仙花数（20 分）](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477965) 
+
+18. [ 猴子选大王](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477976) 
+
+19. [ 矩阵运算](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477966) 
+
+20. [ 求矩阵各行元素之和](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477967) 
+
+21. [ 判断上三角矩阵](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477968) 
+
+22. [ 找鞍点](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477969) 
+
+23. [ 求矩阵的局部极大值](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477971) 
+
+24. [ 打印九九口诀表](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477972) 
+
+25. [ 输出三角形字符阵列](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477970) 
+
+26. [ 求1!+3!+5!+……+n!](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477973) 
+
+27. [ 二维数组中每行最大值和每行和](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477974) 
+
+28. [ 矩阵转置](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477975) 
+
+29. [ 找出不是两个数组共有的元素](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477977) 
+
+30. [ 找完数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163032889524477981) 
