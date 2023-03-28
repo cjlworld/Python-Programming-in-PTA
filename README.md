@@ -338,6 +338,7 @@ Problems
 a = {"a":"d", "o":"p"}
 a["b"] = "c" # 赋值
 a.get("b") # 获取键 "b" 对应的值，没有的话返回 None
+a.get("b", 0) # 获取键 "b" 对应的值，没有的话返回 0, 这是常用的
 for key in a: # 遍历字典
     val = a[key] 
 for key, val in a.items(): # 同时遍历 key 和 val
@@ -351,3 +352,67 @@ for key, val in items:
 排序
 
 使用 `sorted` 函数。
+
+感觉还要学习一下 lambda，好像挺有用的。
+
+感谢
+
+- [Python 函数 | 菜鸟教程](https://www.runoob.com/python/python-functions.html) 
+
+- [Python 之 lambda 函数完整详解 & 巧妙运用_lambda函数python_Nick Peng的博客-CSDN博客](https://blog.csdn.net/PY0312/article/details/88956795) 
+
+关于排序的中文文档 [排序指南 — Python 3.11.2 文档](https://docs.python.org/zh-cn/3/howto/sorting.html) 
+
+Problems
+
+1. [输出星期名缩写](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163034891574829066)
+
+2. [图的字典表示](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163034891574829056)
+
+3. [四则运算（用字典实现）](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163034891574829058) 
+
+4. [分析活动投票情况](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163034891574829059) 
+
+5. [统计字符出现次数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163034891574829060) 
+
+6. [统计工龄](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163034891574829061) 
+
+7. [列表去重](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163034891574829062) 
+
+8. [能被3,5和7整除的数的个数（用集合实现）](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163034891574829063)
+
+9. [求矩阵鞍点的个数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163034891574829064) 
+
+10. [两数之和](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163034891574829065) 
+
+11. [字典合并](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163034891574829057) 
+
+### Chapter VI
+
+Problems
+
+1. [输入列表，求列表元素和(eval输入应用）](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163035698160459780)  
+
+2. [一帮一](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163035698160459788)  
+
+3. [列表或元组的数字元素求和](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163035698160459782) 
+
+4. [列表数字元素加权和(1)](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163035698160459783) 
+
+5. [列表元素个数的加权和(1)](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163035698160459784) 
+
+6. [求指定层的元素个数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163035698160459785) 
+
+7. [找出总分最高的学生](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163035698160459786) 
+
+8. [输出全排列](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163035698160459787) 
+   
+   全排列函数 [python 全排列，permutations函数_permutation函数_yoyo_573的博客-CSDN博客](https://blog.csdn.net/yoyo_573/article/details/108027693) 
+
+### Chapter VII
+
+搞不懂为什么只有一题 [\doge]
+
+Problems
+
+1. [词频统计](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163036357031092224) 
