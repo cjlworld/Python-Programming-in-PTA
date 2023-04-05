@@ -16,6 +16,10 @@ PTA 上 `python` 的做题笔记和代码仓库
 - 浙大版《Python 程序设计》
 - 《Python编程：从入门到实践》
 
+要是没有读者码的话，还有一个比较好的做题网站
+
+- [牛客网在线编程_编程学习|练习题_数据结构|系统设计题库 (nowcoder.com)](https://www.nowcoder.com/exam/oj?page=1&tab=Python%E7%AF%87&topicId=314) 
+
 ### Chapter I Python 语言概述
 
 - [Python 编程的最好搭档—VSCode 详细指南 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/112431369) 
