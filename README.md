@@ -413,6 +413,24 @@ Problems
    
    全排列函数 [python 全排列，permutations函数_permutation函数_yoyo_573的博客-CSDN博客](https://blog.csdn.net/yoyo_573/article/details/108027693) 
 
+### Chapter VI-fn
+
+函数题
+
+Problems
+
+1. [使用函数求特殊a串数列和](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163035698160459776) 
+
+2. [使用函数求素数和](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163035698160459777) 
+
+3. [使用函数统计指定数字的个数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163035698160459778) 
+
+4. [使用函数输出指定范围内Fibonacci数的个数](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163035698160459779) 
+
+5. [使用函数求余弦函数的近似值](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163035698160459781) 
+
+6. [缩写词](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163035698160459789) 
+
 ### Chapter VII
 
 搞不懂为什么只有一题 [\doge]
@@ -420,3 +438,5 @@ Problems
 Problems
 
 1. [词频统计](https://pintia.cn/problem-sets/1111652100718116864/exam/problems/1163036357031092224) 
+
+完结撒花！！！ 2023/4/5 22:02
